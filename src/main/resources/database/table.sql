@@ -1,0 +1,6 @@
+CREATE TABLE tables (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    table_number INTEGER NOT NULL,
+    capacity INTEGER NOT NULL,
+    status TEXT NOT NULL
+);
